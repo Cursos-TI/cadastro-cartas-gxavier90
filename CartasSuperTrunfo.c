@@ -10,7 +10,7 @@ int main() {
     // variáveis para o cadastro da carta 1 do Desafio Super Trunfo
 
     char estado_1;
-    char codigocarta_1 [05];
+    char codigocarta_1 [15];
     char nomecidade_1 [30];
     int populacao_1;
     float areakm2_1;
@@ -20,7 +20,7 @@ int main() {
     // variáveis para o cadastro da carta 2 do Desafio Super Trunfo
 
     char estado_2;
-    char codigocarta_2 [05];
+    char codigocarta_2 [15];
     char nomecidade_2 [30];
     int populacao_2;
     float areakm2_2;
@@ -29,11 +29,11 @@ int main() {
 
   // Área para entrada de dados
 
-   printf("DESAFIO SUPER TRUNFO\n"); // Aqui inicia-se o cadastro das cartas 01 e 02 para o Desafio Super Trunfo
+   printf("\nDESAFIO SUPER TRUNFO\n"); // Aqui inicia-se o cadastro das cartas 01 e 02 para o Desafio Super Trunfo
 
     printf("\nCARTA 1\n"); // CADASTRO DA CARTA 01
     printf("Digite o código do estado: \n");
-    scanf("%s", &estado_1);
+    scanf("%c", &estado_1);
 
     printf("Digite o código da carta: \n");
     scanf("%s", &codigocarta_1);
@@ -55,7 +55,7 @@ int main() {
 
     printf("\nCARTA 2\n"); // CADASTRO DA CARTA 02
     printf("Digite o código do estado: \n");
-    scanf("%s", &estado_2);
+    scanf("%c", &estado_2);
 
     printf("Digite o código da carta: \n");
     scanf("%s", &codigocarta_2);
