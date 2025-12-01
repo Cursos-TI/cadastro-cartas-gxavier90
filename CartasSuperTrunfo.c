@@ -53,11 +53,20 @@ int main() {
   printf("Digite o PIB da cidade: \n");
   scanf("%f", &pib_1);
 
-  printf("Digite a quantidade de pontos turísticos da cidade: \n\n");
+  printf("Digite a quantidade de pontos turísticos da cidade: \n");
   scanf("%d", &pontosturisticos_1);
 
 
   // Área para exibição dos dados da cidade
+
+  printf("\nCarta 1:\n");
+  printf("Estado: %c\n", estado_1);
+  printf("Código: %s\n", codigodacarta_1);
+  printf("Nome da Cidade: %s\n", nomedacidade_1);
+  printf("População: %d\n", populacao_1);
+  printf("Área em km²: %.2f\n", areaemkm2_1);
+  printf("PIB: %.2f\n", pib_1);
+  printf("Número de Pontos Turísticos: %d\n\n", pontosturisticos_1);
 
 
 
