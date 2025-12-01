@@ -33,7 +33,9 @@ int main() {
 
   // Aqui inicia-se o cadastro das cartas 01 e 02 para o Desafio Super Trunfo
 
-  printf("CARTA 1\n"); // CADASTRO DA CARTA 01
+  printf("CARTA 1\n");
+  
+  // CADASTRO DA CARTA 01
 
   printf("Digite o código do estado: \n");
   scanf("%c", &estado_1);
@@ -56,6 +58,31 @@ int main() {
   printf("Digite a quantidade de pontos turísticos da cidade: \n");
   scanf("%d", &pontosturisticos_1);
 
+  printf("\nCARTA 2\n");
+  
+  // CADASTRO DA CARTA 02
+
+  printf("Digite o código do estado: \n");
+  scanf(" %c", &estado_2);
+
+  printf("Digite o código da carta: \n");
+  scanf("%s", codigodacarta_2);
+
+  printf("Digite o nome da cidade: \n");
+  scanf("%s", nomedacidade_2);
+
+  printf("Digite a população da cidade: \n");
+  scanf("%d", &populacao_2);
+
+  printf("Digite a área em km² da cidade: \n");
+  scanf("%f", &areaemkm2_2);
+
+  printf("Digite o PIB da cidade: \n");
+  scanf("%f", &pib_2);
+
+  printf("Digite a quantidade de pontos turísticos da cidade: \n");
+  scanf("%d", &pontosturisticos_2);
+
 
   // Área para exibição dos dados da cidade
 
@@ -66,9 +93,16 @@ int main() {
   printf("População: %d\n", populacao_1);
   printf("Área em km²: %.2f\n", areaemkm2_1);
   printf("PIB: %.2f\n", pib_1);
-  printf("Número de Pontos Turísticos: %d\n\n", pontosturisticos_1);
+  printf("Número de Pontos Turísticos: %d\n", pontosturisticos_1);
 
-
+  printf("\nCarta 2:\n");
+  printf("Estado: %c\n", estado_2);
+  printf("Código: %s\n", codigodacarta_2);
+  printf("Nome da Cidade: %s\n", nomedacidade_2);
+  printf("População: %d\n", populacao_2);
+  printf("Área em km²: %.2f\n", areaemkm2_2);
+  printf("PIB: %.2f\n", pib_2);
+  printf("Número de Pontos Turísticos: %d\n\n", pontosturisticos_2);
 
 return 0;
 } 
