@@ -29,13 +29,20 @@ int main() {
 
   // Área para entrada de dados
 
-  printf ("\nDESAFIO SUPER TRUNFO\n");
+  printf ("\nDESAFIO SUPER TRUNFO\n\n");
 
   // Aqui inicia-se o cadastro das cartas 01 e 02 para o Desafio Super Trunfo
 
   printf("CARTA 1\n"); // CADASTRO DA CARTA 01
+
   printf("Digite o código do estado: \n");
   scanf("%c", &estado_1);
+
+  printf("Digite o código da carta: \n");
+  scanf("%s", codigodacarta_1);
+
+  printf("Digite o nome da cidade: \n");
+  scanf("%s", nomedacidade_1);
 
 
 
