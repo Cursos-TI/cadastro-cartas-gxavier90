@@ -29,7 +29,11 @@ int main() {
 
   // Área para entrada de dados
 
-   
+  printf ("\nDESAFIO SUPER TRUNFO\n\n");
+
+  // Aqui inicia-se o cadastro das cartas 01 e 02 para o Desafio Super Trunfo
+
+
 
   // Área para exibição dos dados da cidade
 
