@@ -44,6 +44,17 @@ int main() {
   printf("Digite o nome da cidade: \n");
   scanf("%s", nomedacidade_1);
 
+  printf("Digite a população da cidade: \n");
+  scanf("%d", &populacao_1);
+
+  printf("Digite a área em km² da cidade: \n");
+  scanf("%f", &areaemkm2_1);
+
+  printf("Digite o PIB da cidade: \n");
+  scanf("%f", &pib_1);
+
+  printf("Digite a quantidade de pontos turísticos da cidade: \n\n");
+  scanf("%d", &pontosturisticos_1);
 
 
   // Área para exibição dos dados da cidade
